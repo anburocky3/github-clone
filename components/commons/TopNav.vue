@@ -53,7 +53,7 @@
           </button>
           <a
             href="#"
-            class="border border-gray-300 rounded rounded-l-none border-l-0 font-semibold hover:text-blue-600 px-3 py-1"
+            class="border border-gray-300 bg-white rounded rounded-l-none border-l-0 font-semibold hover:text-blue-600 px-3 py-1"
             >1
           </a>
         </div>
@@ -76,7 +76,7 @@
           </button>
           <a
             href="#"
-            class="border border-gray-300 rounded rounded-l-none border-l-0 font-semibold hover:text-blue-600 px-3 py-1"
+            class="border border-gray-300 bg-white  rounded rounded-l-none border-l-0 font-semibold hover:text-blue-600 px-3 py-1"
             >4
           </a>
         </div>
@@ -99,7 +99,7 @@
           </button>
           <a
             href="#"
-            class="border border-gray-300 rounded rounded-l-none border-l-0 font-semibold hover:text-blue-600 px-3 py-1"
+            class="border border-gray-300 bg-white  rounded rounded-l-none border-l-0 font-semibold hover:text-blue-600 px-3 py-1"
             >0
           </a>
         </div>
