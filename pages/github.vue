@@ -1,9 +1,9 @@
 <template>
   <div class="text-gray-900 text-sm">
     <div class="bg-gray-50">
-      <Header />
+      <GitHeader />
 
-      <TopNav />
+      <GitTopNav />
     </div>
 
     <div class="container mx-auto my-8 flex gap-4">
@@ -75,10 +75,10 @@
           </div>
 
           <div class="flex items-center gap-2">
-            <button class="px-4 py-1.5  bg-gray-50 border rounded-md">
+            <button class="px-4 py-1.5 bg-gray-50 border rounded-md">
               Go to file
             </button>
-            <button class="px-4 py-1.5  bg-gray-50 border rounded-md">
+            <button class="px-4 py-1.5 bg-gray-50 border rounded-md">
               Add file
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -97,7 +97,7 @@
             </button>
             <button
               class="px-4 py-1.5 text-white border rounded-md"
-              style="background-color:#2ea44f;"
+              style="background-color: #2ea44f"
             >
               <div class="flex items-center gap-1.5">
                 <svg
@@ -134,7 +134,7 @@
 
         <!-- code head -->
         <div
-          class="mt-5  py-3 px-3 flex justify-between bg-blue-50 border border-b-0 rounded-md rounded-b-none"
+          class="mt-5 py-3 px-3 flex justify-between bg-blue-50 border border-b-0 rounded-md rounded-b-none"
         >
           <div class="flex items-center gap-3">
             <a href="#">
@@ -145,7 +145,7 @@
               />
             </a>
 
-            <div class="flex  items-center gap-2">
+            <div class="flex items-center gap-2">
               <span class="font-semibold">anburocky3</span>
               <span>Feature: Header UI Designed</span>
             </div>
@@ -193,7 +193,7 @@
             </svg>
           </div>
 
-          <div class=" py-5 text-gray-600">
+          <div class="py-5 text-gray-600">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
               aliquam incidunt minima! Quibusdam error delectus aliquid magni
@@ -337,7 +337,7 @@
           <div class="head py-5">
             <h1>
               <strong class="text-base">Releases</strong>
-              <span class="bg-gray-200 px-2 py-0.5 rounded-full text-xs  ml-0.5"
+              <span class="bg-gray-200 px-2 py-0.5 rounded-full text-xs ml-0.5"
                 >145</span
               >
             </h1>
@@ -385,7 +385,7 @@
         <div class="used_by border-t py-5">
           <h1>
             <strong class="text-base">Used by</strong>
-            <span class="bg-gray-200 px-2 py-0.5 rounded-full text-xs  ml-0.5"
+            <span class="bg-gray-200 px-2 py-0.5 rounded-full text-xs ml-0.5"
               >125k</span
             >
           </h1>
@@ -554,7 +554,7 @@
         <span class="text-gray-600"
           >&copy; {{ new Date().getFullYear() }} Github, Inc</span
         >
-        <ul class="flex gap-14 ">
+        <ul class="flex gap-14">
           <a href="#" class="text-blue-600 hover:underline">Terms</a>
           <a href="#" class="text-blue-600 hover:underline">Privacy</a>
           <a href="#" class="text-blue-600 hover:underline">Security</a>

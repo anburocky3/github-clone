@@ -27,6 +27,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    'nuxt-vite'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
